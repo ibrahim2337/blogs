@@ -22,24 +22,30 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-slate-400 rounded-box w-52"
             >
               <li>
-                <a>Cate</a>
+                <a className="font-semibold text-white text-lg">Home</a>
               </li>
               <li>
-                <a>Category</a>
+                <a className="font-semibold text-white text-lg">Categories</a>
                 <ul className="p-2">
                   <li>
-                    <a>Submenu 1</a>
+                    <a>Category 1</a>
                   </li>
                   <li>
-                    <a>Submenu 2</a>
+                    <a>Category 2</a>
+                  </li>
+                  <li>
+                    <a>Category 3</a>
+                  </li>
+                  <li>
+                    <a>Category 4</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a>Item 3</a>
+                <a className="font-semibold text-white text-lg">Tag</a>
               </li>
             </ul>
           </div>
@@ -75,7 +81,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <a className="px-4 py-3 bg-slate-300 hover:bg-slate-500 hover:text-white rounded-md text-md font-bold">Contact Me</a>
         </div>
       </div>
     </div>
