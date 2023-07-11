@@ -52,7 +52,7 @@ const Navbar = () => {
             </li>
             <li tabIndex={0}>
               <details>
-                <summary className="font-semibold text-white text-lg">Categorys</summary>
+                <summary className="font-semibold text-white text-lg">Categories</summary>
                 <ul className="p-2 bg-slate-400">
                   <li>
                     <a className="font-semibold text-white text-md">Category 1</a>
